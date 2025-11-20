@@ -1,5 +1,7 @@
 # European Option Pricing with COS Method
 
+https://blackscholesmanav.streamlit.app/
+
 ## Overview
 This project implements the innovative COS Method (Fourier-Cosine Series Expansion) for efficient pricing of European call and put options. Developed by Fang and Oosterlee, this advanced numerical technique delivers exceptional computational performance while maintaining high accuracy across various financial models.
 
