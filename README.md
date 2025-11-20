@@ -21,7 +21,6 @@ While the Black-Scholes model provides analytical solutions under specific assum
 European option valuation follows the risk-neutral pricing formula:
 ```
     V(S_0, t) = e^{-r(T-t)} \mathbb{E} [ (S_T - K)^+ ]
-\]
 ```
 where:
 - \( S_0 \) Current underlying asset price
@@ -34,9 +33,9 @@ The COS method revolutionizes this computation through Fourier-cosine series exp
 
 ## COS Method Deep Dive
 The COS technique approximates option payoff functions using Fourier cosine expansions:
-\[
+
     f(x) \approx \sum_{n=0}^{N-1} A_n \cos \left( \frac{n \pi (x - a)}{b - a} \right)
-\]
+
 where:
 - \( a, b \) defines integration boundaries
 - \( A_n \) derived from the characteristic function \( \varphi(u) \),
