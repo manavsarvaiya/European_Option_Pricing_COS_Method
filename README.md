@@ -19,9 +19,9 @@ While the Black-Scholes model provides analytical solutions under specific assum
 
 ## Mathematical Foundation
 European option valuation follows the risk-neutral pricing formula:
-\[
+`\[
     V(S_0, t) = e^{-r(T-t)} \mathbb{E} [ (S_T - K)^+ ]
-\]
+\]`
 where:
 - \( S_0 \) Current underlying asset price
 - \( K \) Option strike price
